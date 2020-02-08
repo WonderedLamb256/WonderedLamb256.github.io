@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /sources/
+User-agent: Googlebot
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://wonderedlamb256.github.io/sitemap.xml
