@@ -3,5 +3,6 @@ Disallow: /sources/
 User-agent: Googlebot
 User-agent: Bingbot
 Allow: /
+Disallow: /sources/
 
 Sitemap: https://wonderedlamb256.github.io/sitemap.xml
