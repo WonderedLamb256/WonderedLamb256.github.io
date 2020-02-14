@@ -21,3 +21,8 @@ nav {
 nav a {
       margin: 8px;
 }
+.divider {
+      border-top-style: solid;
+      border-top-width: 1px;
+      padding: 10px;
+}      
