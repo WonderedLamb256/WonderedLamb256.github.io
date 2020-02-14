@@ -5,18 +5,19 @@ body {
       color: black;
 }
 p {
-     font-family: "Trebuchet MS", "Helvetica", sans-serif;
+      font-family: "Trebuchet MS", "Helvetica", sans-serif;
 }
 h1 {
-     font-family: "Trebuchet MS", "Helvetica", sans-serif;
+      font-family: "Trebuchet MS", "Helvetica", sans-serif;
 }
 a {
-     font-family: "Trebuchet MS", "Helvetica", sans-serif;
+      font-family: "Trebuchet MS", "Helvetica", sans-serif;
 }
 nav {
-     background-color: aliceblue;
-     margin: 10px;
+      background-color: aliceblue;
+      margin: 10px;
 }
 nav a {
-     margin: 8px;
+      margin: 8px;
+      display: inline;
 }
