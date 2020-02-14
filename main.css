@@ -3,6 +3,7 @@
 body {
       background-color: lightsteelblue;
       background-image: url("images/rainforest.JPG");
+      opacity: 0.5;
       color: black;
 }
 p {
