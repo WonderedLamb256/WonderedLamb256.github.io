@@ -46,6 +46,6 @@ switch(programMonth) { // Programmatically takes variable of programMonth and fi
             break;     
 }
 
-detectTimeParagraph = document.getElementById("time"); // Locate the <p> tag with the time class
+detectTimeParagraph = document.getElementById('time'); // Locate the <p> tag with the time class
 
 detectTimeParagraph.innerHTML = `Today is ${month} ${day}, ${year}`; // Tell full month
