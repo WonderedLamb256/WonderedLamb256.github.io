@@ -17,3 +17,6 @@ nav {
      background-color: aliceblue;
      margin: 10px;
 }
+nav a {
+     margin: 8px;
+}
