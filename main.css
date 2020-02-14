@@ -2,10 +2,13 @@ body {
       background-color: lightsteelblue;
       color: black;
 }
-p, h1, a {
+p {
      font-family: "Trebuchet MS", "Helvetica", sans-serif;
 }
 h1 {
+     font-family: "Trebuchet MS", "Helvetica", sans-serif;
+}
+a {
      font-family: "Trebuchet MS", "Helvetica", sans-serif;
 }
 nav {
