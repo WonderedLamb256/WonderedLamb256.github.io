@@ -16,8 +16,8 @@ a {
 nav {
       background-color: aliceblue;
       margin: 10px;
+      padding: 2px;
 }
 nav a {
       margin: 8px;
-      display: inline;
 }
