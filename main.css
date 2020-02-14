@@ -3,8 +3,7 @@
 body {
       background-color: lightsteelblue;
       background-image: url("images/rainforest.JPG");
-      opacity: 0.5;
-      color: black;
+      color: white;
 }
 p {
       font-family: "Trebuchet MS", "Helvetica", sans-serif;
@@ -19,6 +18,7 @@ nav {
       background-color: aliceblue;
       margin: 10px;
       padding: 2px;
+      opacity: 0.5;
 }
 nav a {
       margin: 8px;
