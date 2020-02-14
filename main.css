@@ -2,6 +2,7 @@
 
 body {
       background-color: lightsteelblue;
+      background-image: url("rainforest.png");
       color: black;
 }
 p {
