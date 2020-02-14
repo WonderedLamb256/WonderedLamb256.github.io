@@ -2,7 +2,7 @@ body {
       background-color: lightsteelblue;
       color: black;
 }
-p {
+p, h1, a {
      font-family: "Trebuchet MS", "Helvetica", sans-serif;
 }
 h1 {
