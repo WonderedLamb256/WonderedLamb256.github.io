@@ -48,4 +48,4 @@ switch(programMonth) { // Programmatically takes variable of programMonth and fi
 
 detectTimeParagraph = document.getElementsByClassName("time"); // Locate the <p> tag with the time class
 
-detectTimeParagraph.innerHTML = `(Today is ${month} ${day}, ${year})` // Tell full month
+detectTimeParagraph.innerHTML = `Today is ${month} ${day}, ${year}` // Tell full month
