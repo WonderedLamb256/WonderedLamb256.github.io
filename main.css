@@ -23,7 +23,7 @@ nav {
 }
 nav a {
       margin: 8px;
-      opacity: 1.0;
+      opacity: 0.999;
 }
 .divider {
       border-top-style: solid;
