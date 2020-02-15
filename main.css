@@ -3,7 +3,7 @@
 body {
       background-color: lightsteelblue;
       background-image: url("images/rainforest.JPG");
-      color: white;
+      color: black;
 }
 p {
       font-family: "Trebuchet MS", "Helvetica", sans-serif;
@@ -13,7 +13,6 @@ h1 {
 }
 a {
       font-family: "Trebuchet MS", "Helvetica", sans-serif;
-      color: white;
 }
 nav {
       background-color: aliceblue;
