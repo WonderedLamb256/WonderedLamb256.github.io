@@ -23,6 +23,7 @@ nav {
 nav a {
       margin: 8px;
       color: lightsteelblue;
+      text-align: center;
 }
 .divider {
       border-top-style: solid;
