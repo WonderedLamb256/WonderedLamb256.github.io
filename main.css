@@ -13,6 +13,7 @@ h1 {
 }
 a {
       font-family: "Trebuchet MS", "Helvetica", sans-serif;
+      color: papayawhip;
 }
 nav {
       background-color: aliceblue;
@@ -22,6 +23,7 @@ nav {
 }
 nav a {
       margin: 8px;
+      opacity: 1;
 }
 .divider {
       border-top-style: solid;
