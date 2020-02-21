@@ -1,1 +1,82 @@
-
+<!DOCTYPE html>
+<!-- A template for new pages. -->
+<html>
+      <head>
+            <link rel="stylesheet" href="main.css"/>
+            <link rel="author" href="humans.txt"/>
+            <!--<link rel="stylesheet" not sure yet
+            href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/default.min.css">
+            <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>-->
+            <title>WonderedLamb256's Website</title>
+            <meta charset="utf-8"/>
+      </head>
+      <body>
+            <div class=bigbox>
+            <header>
+                  <nav>
+                        <a href="index.html">Home</a>
+                        <a href="programming.html">Programming</a>
+                        <a href="linux.html">Linux World</a>
+                        <a href="terminal-fun.html">Linux Terminal Fun</a>
+                        <a href="windows.html">Windows Corner</a>
+                        <a href="projects.html">Projects</a>
+                        <a href="other.html">More</a>
+                  </nav>
+            </header>
+            <main>
+                  <h1>Gentoo .ebuild files: How do you write one?</h1>
+                  <p style="text-size:125%;">bibliography: https://wiki.gentoo.org/wiki/Basic_guide_to_write_Gentoo_Ebuilds</p>
+                  <p>
+                  So you want to make a Gentoo Linux program? No problem. However, you'll need to create an ebuild file first.
+                  An ebuild file is a shell script file with the extension of .ebuild. It contains basic variables and metadata
+                  needed to define a package. Ebuilds are stored in /var/db/repos/ and official ebuilds are contained in a folder
+                  named gentoo inside of that folder. Assuming you have a package and are using github or gitlab/hosting a git server,
+                  fire up your favorite text editor. Comments are pound signs like normal shell scripts, Make, and Python.
+                  </p>
+                  <pre>
+                        <code>
+                        # Copyright 1999-2020 Gentoo Authors
+                        # Distributed under the terms of the GNU General Public License v2
+                        
+                        EAPI=7 # Use Portage API v7
+                        
+                        DESCRIPTION="My library" # Description for Portage tools
+                        HOMEPAGE="https://wonderedlamb256.github.io/" # Your homepage
+                        SRC_URI="https://wonderedlamb256.github.io/downloads/blahblahblah-3.1.git" # Download link
+                        
+                        LICENSE="GPL-3" # This code would be under GPL3 if it existed
+                        SLOT="0" # You can use very similar versions of the same package twice or more using slots
+                        KEYWORDS="~amd64" # Use tilde to denote testing architecture. i.e. this is in testing for AMD64 only.
+                        IUSE="" # This package does not depend on any packages.
+                        
+                        DEPEND="" # Further dependency info.
+                        RDEPEND="${DEPEND}" # Ditto.
+                        BDEPEND="" # Ditto.
+                        </code>
+                  </pre>
+                  <p>
+                  Now that we have our basic ebuild, we may want to customize the build process. Here's a list of ebuild
+                  <em>functions</em> that are involved in the build process.
+                  <ul>
+                        <li>pkg_pretend: (What to do when) pretend installing</li>
+                        <li>src_unpack: Unpacking tar.gz file</li>
+                        <li>src_prepare: Preparing for compile</li>
+                        <li>src_configure: reading config info</li>
+                        <li>src_compile: compiling</li>
+                        <li>src_test: testing</li>
+                        <li>src_install: installation</li>
+                  </ul>
+                  There are some similarities with normal shell commands, but there are also special <em>actions</em> that
+                  exist in Gentoo ebuild functions. Read more about actions
+                  </p>
+                  <a href="https://devmanual.gentoo.org/ebuild-writing/functions/index.html#contents">here.</a>
+                  <p><br/>Next time, I'm going to talk about overlays, other core portage files, and some more about functions.
+                  Enjoy! -WonderedLamb256
+                  </p>
+            </main>
+            <footer>
+            
+            </footer>
+            </div>
+      </body>
+</html>
