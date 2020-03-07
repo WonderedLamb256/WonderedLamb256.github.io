@@ -46,6 +46,7 @@ nav a {
 .gridaside {
       grid-area: gaside;
       border-right: 2px solid white;
+      color: white;
 }
 .main-container {
       display: grid;
