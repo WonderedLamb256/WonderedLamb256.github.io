@@ -53,3 +53,6 @@ nav a {
       '.      gmain gmain';
       grid-gap: 4px;
 }
+aside {
+      border-right: 1px solid white;
+}
