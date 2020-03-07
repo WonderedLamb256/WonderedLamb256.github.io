@@ -45,6 +45,7 @@ nav a {
 }
 .gridaside {
       grid-area: gaside;
+      border-right: 2px solid white;
 }
 .main-container {
       display: grid;
@@ -52,7 +53,4 @@ nav a {
       'gaside gmain gmain'
       '.      gmain gmain';
       grid-gap: 4px;
-}
-aside {
-      border-right: 2px solid white;   
 }
