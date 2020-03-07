@@ -46,10 +46,12 @@ nav a {
 .gridaside {
       grid-area: gaside;
       border-right: 1px solid white;
-      color: white;
 }
 .main-container {
       display: grid;
       grid-template-areas: 'gaside gmain gmain';
       grid-gap: 4px;
+}
+.gridasidelinks {
+      color: white;
 }
