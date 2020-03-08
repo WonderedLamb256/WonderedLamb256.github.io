@@ -47,7 +47,7 @@ nav a {
 }
 .gridaside {
       grid-area: gaside;
-      border-right: 1px solid white;
+      border-right: 1px solid aliceblue;
 }
 .main-container {
       display: grid;
