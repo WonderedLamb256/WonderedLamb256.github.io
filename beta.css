@@ -1,5 +1,7 @@
 /* wonderedlamb256.github.io beta styles using CSS grid */
 /* colorscheme is lightsteelblue, aliceblue, and papayawhip */ 
+:root {
+}
 body {
       background-color: lightsteelblue;
       background-image: url("images/rainforest.JPG");
