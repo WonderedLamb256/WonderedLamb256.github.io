@@ -57,3 +57,7 @@ nav a {
 .gridasidelinks {
       color: white;
 }
+code {
+      border-radius: 2px;
+      color: lightgray;
+}
