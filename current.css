@@ -1,0 +1,72 @@
+/* 
+* .CSS file for wonderedlamb256.github.io
+*/
+* { /* CSS margin reset for global browser settings */
+      margin: 0;
+      padding: 0;
+      box-model: border-box;
+}
+
+body {
+      font-family: "Trebuchet MS", "Roboto", "Arial", sans-serif;
+}
+/*
+main > p:first-of-type {
+      border: 2px solid #000;
+}
+*/
+.flex-navigation-bar {
+      background-color: #b3dff2; /* Sky blue, short is #BDF */
+      display: flex;
+      justify-content: space-between;
+}
+.flex-navigation-bar > a:link, a:visited {
+      color: #fff;
+}
+.automargin {
+      margin: 0 auto;
+}
+.quick-icons {
+      border-left: 1px solid #24649c;
+}
+.navigation {
+      border-right: 1px solid #24649c;
+}
+.centernavigation {
+      margin: 15px 5px;
+      padding: 5px;
+}
+.flex-header {
+      display: flex;
+      justify-content: space-between;
+      background-color: #24649c;
+      color: white;
+}
+.headertext {
+      font-size: 2em;
+      padding: 50px;    
+}
+.flex-footer {
+      display: flex;
+      justify-content: space-between;
+      background-color: #555;
+}
+.flex-boxes {
+      display: flex;
+      justify-content: space-around;
+}
+.box {
+      padding: 50px;
+      margin: 10px;
+      border-radius: 4px;
+}
+.pageheader {
+      text-align: center;
+      margin: 10px;
+}
+a:link, a:visited {
+      color: #44c5d4;
+}
+i {
+      color: #24649c;
+}
