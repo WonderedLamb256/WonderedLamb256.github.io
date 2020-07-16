@@ -60,6 +60,7 @@ main > p:first-of-type {
       margin: 10px;
       border-radius: 4px;
       background-color: #24649c;
+      color: #fff;
 }
 .pageheader {
       text-align: center;
